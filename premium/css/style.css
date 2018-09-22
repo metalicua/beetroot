@@ -1,0 +1,46 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+
+}
+
+.grid {
+	width: 1024px;
+	margin: 0 auto;
+}
+
+/*Header*/
+.header {
+	background-color: #ccc;
+}
+
+
+.header-logo {
+	float: left;
+}
+
+.header-backet {
+	float: right;
+}
+
+.header-serch {
+	display: inline-block;
+}
+
+.header-top {
+	float: left;
+}
+
+.header-top:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.header-nav {
+	background-color: #4ccfc1;
+}
+/*End of header*/

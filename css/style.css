@@ -1,0 +1,155 @@
+body {
+	font-family: 'Trebuchet MS', Trebuchet, 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #000;
+	background-color: #f5f4EF;
+}
+
+.grid {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.header {
+	padding: 50px 15px 15px 15px;
+}
+
+h1 {
+	margin-bottom: 10px;
+	font-size: 40px;
+}
+
+h1 a {
+	color: #000;
+	text-decoration: none;
+}
+
+h1 a:hover {
+	background-color: transparent;
+	color: #C74350;
+}
+
+.header-text {
+	color: #C74350;
+}
+
+.header-text p {
+	margin-top: 0;
+}
+
+.box {
+	padding: 20px;
+	margin-bottom: 30px;
+	border-radius: 10px;
+	background-color: #fff;
+}
+
+.aside p:last-child {
+	margin-bottom: 0;
+}
+
+h3{
+	margin-top: 0;
+}
+
+h3 a {
+	color: #000;
+	text-decoration: none;
+}
+
+h3 a:hover {
+	color: #fff;
+	background-color: #C74350;
+}
+
+h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: #C74350;
+}
+h2 a {
+	text-decoration: none;
+}
+
+a {
+	color: #C74350;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #C74350;
+}
+
+
+.article {
+	margin-bottom: 15px;
+	border-bottom: 1px solid #f5f4EF;
+}
+
+.article:last-child {
+	margin-bottom: 0;
+	border: none;
+}
+/* F3e3e3 */
+
+.blogroll-list {
+	width: 230px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.blogroll-list li {
+	border-bottom: 1px solid #fff;
+}
+
+.blogroll-list li a {
+	display: block;
+	padding: 5px ;
+	text-decoration: none;
+	border-bottom: 1px solid #f4e3e3;
+	color: #000;
+}
+
+.blogroll-list li a:hover {
+	color: #fff;
+}
+
+.blogroll {
+	margin-bottom: 50px;
+}
+
+.footer {
+
+
+}
+
+.footer-left,
+.footer-right {
+	float: left; 
+}
+
+.footer-left {
+	width: 30%;
+}
+
+.footer-right {
+	width: 70%;
+}
+
+.clear {
+	clear: both;
+}
+
+p {
+	margin: 0;
+}
+
+.autor {
+	margin-bottom: 15px;
+}
+
+.copyright {
+	text-align: right;
+	margin-bottom: 20px;
+}

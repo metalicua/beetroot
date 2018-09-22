@@ -1,0 +1,342 @@
+body {
+	margin: 20px auto;
+	background-image: url(../img/background.png);
+	font-family:'Arial';
+}
+
+.grid {
+	margin: 0 auto;
+	width: 960px;
+	display: table;
+}
+
+/*header*/
+.header {
+	margin: 0 0 20px 0;
+	height: auto;
+	
+}
+
+.header-top {
+	margin: 0 0 20px 0;
+	float: left;
+}
+/*Search form*/
+input {
+  width: 200px;
+  float: right; 
+  padding-left: 10px;
+  border: 2px solid #e7e7e7;
+  background: #F9F0DA;
+  color: #9E9C9C;
+}
+
+button {
+  right: 0px;
+  width: 36px;
+  padding: 3px;
+  float: right; 
+  border: none;
+  color: #fff;
+  background: #33ccff;
+  cursor: pointer;
+}
+
+.clear {
+	clear: both;
+}
+
+.navi {
+	height: auto;
+	margin: 0 auto;
+}
+
+/*Navigation*/
+ul.full-width {
+	width: 100%; 
+	display: table;
+	margin: 0;
+	padding: 0;
+	border: 2px solid #e7e7e7;
+	background-color: #F9F0DA;
+}
+
+ul.full-width li {
+	display: table-cell;
+	line-height: 40px;
+	
+	
+}
+
+ul.full-width li a {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align:center;
+	text-decoration: none;
+	display: inline-block;
+	text-transform: uppercase;
+}
+
+.full-width li a:hover {
+	background-color: #33ccff;
+	color: #fff;
+}
+
+.full-width li a:active {
+	background-color: #33ccff;
+	color: #fff;
+}
+
+li a {
+	color: #9E9C9C;
+	font-size: 13px;
+}
+
+li.current a {
+	background-color: #33ccff;
+	color: #fff;
+}
+
+/*Title*/
+.title {
+	margin: 0 auto;
+	height: 40px;
+	background: repeating-linear-gradient(135deg, #ccc, 1px, #fff 4px);
+}
+
+.title-name {
+	width: 210px;
+	margin: 0 15px;
+	padding: 0 10px;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #666;
+	background-image: url(../img/background.png);
+}
+
+/*Aside*/
+.aside {
+	margin: 20px 0;
+	width: 25%;
+	float: left;
+	
+
+}
+
+.aside-menu li.active {
+	color: #29c5e6;
+}
+
+.aside-menu li.active a {
+	color: #29c5e6;
+}
+
+.aside .aside-menu {
+	margin: 0;
+	padding: 0;
+	background-color: #F9F0DA;
+	border: 2px solid #e7e7e7;
+	
+}
+
+.aside-menu label {
+	border-bottom: 2px solid #e7e7e7;
+	display: block;
+	cursor: pointer;
+}
+
+.aside-menu label:last-child {
+	border-bottom:none;
+}
+
+.aside-menu li {
+	padding: 10px 0;
+	margin-left: 25px;
+	text-transform: uppercase;
+	list-style: square; 
+	color: #8f8f8f;
+}
+
+.aside-menu li a {
+	text-decoration: none;
+}
+
+.aside-menu li:hover {
+	color: #29c5e6;
+}
+
+.aside-menu li a:hover {
+	color: #29c5e6;
+}
+
+.other {
+	margin-top: 40px;
+	border: 2px solid #e7e7e7;
+	background-color: #F9F0DA;
+}
+
+.other h2 {
+	margin: 0;
+	padding: 15px;
+	font-size: 18px;
+	background-color: #29c5e6;
+	color: #fff;
+}
+
+.other img {
+	display: block;
+  	margin: 0 auto;
+  	padding: 3px;
+	width: 230px;
+	height: 180px;
+}
+
+/*Main content*/
+.main {
+	margin: 20px 0;
+	width: 70%;
+	float: right;
+}
+
+.box {
+	background-color: #33ccff;
+	font-size: 26px;
+	font-style: italic;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.quote {
+	padding: 20px 35px;
+}
+
+.autor {
+	padding: 0px 20px;
+	font-size: 18px;
+	color: #006699;
+	text-align: right;
+	font-style: normal;
+	text-transform: capitalize;
+}
+
+.img-left img {
+	width: 45%;
+	height: 180px;
+	float: left;
+	margin: 0;
+	padding: 2px;
+	border: 1px solid #c9c9c9;
+}
+
+.img-right img {
+	width: 45%;
+	height: 180px;
+	float: right;
+	margin: 0;
+	padding: 2px;
+	border: 1px solid #c9c9c9;
+}
+
+.team h2 {
+	margin: 30px 0 20px 0;
+	padding: 15px;
+	font-size: 18px;
+	background-color: #29c5e6;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.foto {
+	margin: 0;
+	display: inline-block;
+	width: auto;
+	padding: 0 15px;
+}
+
+.foto:first-child{
+	padding-left: 0;
+}
+
+.foto:last-child{
+	padding-right: 0;
+}
+
+.foto img {
+	width: 100px;
+	height: 100px;
+	padding: 2px;
+	border: 1px solid #c9c9c9;
+}
+
+.name {
+	margin: 0;
+	padding: 0;
+	color: #8f8f8f;
+	font-size: 15px;
+}
+
+.position {
+	margin: 0;
+	padding: 0 0 10px 0;
+	color: #29c5e6;
+	font-size: 13px;
+}
+
+.photo {
+	padding-bottom: 20px;
+}
+
+/*Footer*/
+.footer {
+	width: 100%;
+	position: absolute;
+	background-color: #7e7e7e; 
+  	color: #dbdbdb;
+  	font-size: 11px
+}
+
+.footer.footer-box {
+	height: 110px;
+	padding: 10px 0;
+}
+
+.footer-box {
+	padding: 10px 10px 0 250px;
+}
+
+
+.footer-box h3 {
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 21px;
+	margin: 0 0 10px;
+	text-transform: uppercase;
+}
+
+.tweetter {
+	float: left;
+	width: 35%;
+}
+
+.social {
+	float: left;
+	width: 20%;
+}
+
+.sitemap {
+	float: left;
+	width: 15%;
+  	
+ }
+
+ .logofooter {
+ 	float: right;
+ 	width: 20%;
+ 	padding-right: 100px;
+}
+
+.logofooter p {
+	text-align: right;
+    
+}
