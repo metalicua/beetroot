@@ -11,6 +11,10 @@
  
  }
 
+ h2 {
+  text-transform: uppercase;
+ }
+
 .grid {
   margin: 0 auto;
   width: 75%;
@@ -34,18 +38,13 @@
   width: 90%;
   vertical-align: middle;
   font-size: 100px;
-  border: 3px solid  #f1f1f1;
   color:  #c2c2c2;
   font-weight: 700;
   background: transparent;
 }
-.search-input:hover {
-	color: #ec5a62;
-}
 
 .search-input:focus {
   color: #ec5a62;
-  border: 3px solid #ec5a62;
 }
 
 .search-button {
@@ -78,12 +77,15 @@
   display: inline-block;
   
   border-radius: 25px;
+  
+  
 }
 
 .circle,
 .icon {
   vertical-align: middle;
   width: 50px;
+  margin-right: 10px;
 }
 
 .column {
@@ -109,15 +111,9 @@ a {
   color:  #c2c2c2;
 }
 
-.column:nth-child(2n+1){
-  margin-left: 4%;
-  margin-right: 4%
-}
-
 .title {
   margin-top: 50px;
   display: inline-block;
-  text-transform: uppercase;
   font-size: 14px;
 }
 .title:nth-child(2n){
@@ -128,6 +124,7 @@ a {
 li {
   vertical-align: middle; 
   width: 100%;
+  font-size: 0;
 }
 
 a:active,
@@ -136,12 +133,11 @@ li:hover {
   background: #e4e4e6;
   color: #ec5a62;
   cursor: pointer;
+  border-radius: 10px;
 }
 
-.list h3 {
+h3 {
   display: inline-block;
   vertical-align: middle;
-  font-size: 12px;
-  padding-left: 10px;
-  width: 80%;
+  font-size: 14px;
 }
