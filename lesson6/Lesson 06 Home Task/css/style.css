@@ -45,6 +45,7 @@
 }
 
 .search-input:focus {
+  border: 2px solid #ec5a62;
   color: #ec5a62;
 }
 
