@@ -65,3 +65,15 @@ button {
 	font-weight: 700;
 	letter-spacing: 10px;
 }
+
+button:hover {
+	cursor: pointer;
+	border: 2px solid #fb8103;
+	color: #fb8103;
+}
+
+button:action {
+	cursor: pointer;
+	border: 2px solid #eaa258;
+	background-color: #ede0d3;
+}
