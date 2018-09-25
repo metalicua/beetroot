@@ -1,4 +1,4 @@
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -40,10 +40,12 @@
   font-size: 100px;
   color:  #c2c2c2;
   font-weight: 700;
+  border: 2px solid  #c2c2c2;
   background: transparent;
 }
 
 .search-input:focus {
+  border: 2px solid #ec5a62;
   color: #ec5a62;
 }
 
@@ -75,7 +77,6 @@
 
 .circle {
   display: inline-block;
-  
   border-radius: 25px;
   
   
@@ -90,9 +91,11 @@
 
 .column {
   margin-bottom: 100px;
+  margin-top: 50px;
+  display: inline-block;
+  font-size: 14px;
 }
 
-.title,
 .column {
   display: inline-block; 
   width: 30%;
@@ -103,6 +106,9 @@
   border-radius: 10px;
   padding: 10px;
   margin-top: 10px;
+  vertical-align: middle; 
+  width: 100%;
+  font-size: 0;
 }
 
 a {
@@ -111,19 +117,13 @@ a {
   color:  #c2c2c2;
 }
 
-.title {
-  margin-top: 50px;
-  display: inline-block;
-  font-size: 14px;
-}
-.title:nth-child(2n){
+
+.column:nth-child(2n){
   margin-left: 4%;
   margin-right: 4%
 }
 
-li {
-  vertical-align: middle; 
-  width: 100%;
+.list {
   font-size: 0;
 }
 
@@ -139,5 +139,5 @@ li:hover {
 h3 {
   display: inline-block;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 13px;
 }
