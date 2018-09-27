@@ -31,8 +31,8 @@ h1 {
 
 
 .article p:first-of-type:first-letter {
-	padding-top: 10px ;
-  	margin-right: 10px; 
+	line-height: 1;
+	margin-right: 10px; 
   	float: left;
 	font-family: 'Playfair Display', serif;
 	font-size: 100px;
