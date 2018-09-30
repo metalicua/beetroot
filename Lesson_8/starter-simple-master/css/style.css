@@ -1,53 +1,100 @@
-body{
-
+@font-face {
+    font-family: 'Segoe UI  bold';
+    src: url('../fonts/SegoeUI-Bold.woff2') format('woff2'),
+        url('../fonts/SegoeUI-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 
-/* Layout */
-.ba-container{
-	padding-left: 20px;
-	padding-right: 20px;
-	max-width: 1200px;
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI.woff2') format('woff2'),
+        url('../fonts/SegoeUI.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 
-/* Typography */
-a,
-input[type="submit"],
-input[type="button"],
-button{
-	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
-}
-input[type="submit"],
-input[type="button"],
-button,
-.ba-button{
-	display: inline-block;
-}
-input[type="submit"]:hover,
-input[type="button"]:hover,
-button:hover,
-.ba-button:hover{
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-input[type="text"],
-input[type="email"],
-input[type="password"],
-input[type="number"],
-input[type="tel"],
-textarea,
-select {
-	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.5;
 }
 
-input[type="text"]:focus,
-input[type="email"]:focus,
-input[type="password"]:focus,
-input[type="number"]:focus,
-input[type="tel"]:focus,
-textarea:focus,
-select:focus {
-
+h1,
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 50px;
+    font-family: 'Segoe UI  bold', sans-serif;
+    font-size: 80px;
+    color: #464b4f;
 }
-textarea {
 
+h3 {
+   font-family: 'Segoe UI  bold', sans-serif;
+   font-size: 18px;
+   color: #464b4f;
+}
+
+.grid {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 80px 0 50px;
+    text-align: center;
+    background-color: #23232e;
+}
+
+.header-text {
+    margin-bottom: 180px;
+    color: #fff;
+}
+
+.header-text h1 {
+   color: #fff;
+}
+
+.header-text p {
+    max-width: 440px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    margin-bottom: 170px;
+}
+
+.main {
+    padding: 120px 0;
+    background-image: url('../img/bg.png');
+}
+
+.main-content {
+    margin-bottom: 100px;
+    font-size: 30px;
+    text-align: center;
+    color: #464b4f;
+}
+
+.column {
+    font-size: 0;
+}
+
+.column-item {
+    display: inline-block;
+    width: 33%;
+    padding-right: 20px;
+    vertical-align: top;
+ 
+}
+
+.column-item p {
+    color: #888a8b;
 }
