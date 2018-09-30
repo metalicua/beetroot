@@ -1,0 +1,177 @@
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/FontAwesome.woff2') format('woff2'),
+        url('../fonts/FontAwesome.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto Bk';
+    src: url('../fonts/Roboto-Black.woff2') format('woff2'),
+        url('../fonts/Roboto-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eeeeee;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon {
+    font-family: 'FontAwesome' !important;
+}
+
+.grid {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+/*Header*/
+
+.header {
+    padding: 50px 0;
+    font-size: 0;
+}
+
+.header-logo, 
+.header-nav {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header-logo {
+    max-width: 273px;
+    color: #303030;
+    font-size: 48px;
+    font-family: 'Roboto Bk';
+    letter-spacing: 1px;
+}
+
+.header-nav {
+    width: calc( 100% - 275px );
+}
+
+.header-nav ul {
+    font-size: 16px;
+    text-align: right; 
+}
+
+.header-nav li {
+    padding: 0 25px;
+    display: inline-block;
+   
+}
+
+.header-nav li:first-child {
+    padding-left: 0;
+}
+
+.header-nav li:last-child {
+    padding-right: 0;
+}
+
+.header-nav a:hover {
+    color: #e2232f;
+}
+
+.header-nav a {
+    color: #303;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+/*End of header*/
+
+/*Slider*/
+
+.slider {
+    padding-top: 50px;
+}
+
+.discription {
+    text-align: right;
+    max-width: 615px;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.discription,
+.title-image {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.text-title {
+    font-family: 'Raleway', sans-serif;
+    font-size: 150px;
+    color: #303030;
+    font-weight: 900;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.text {
+    padding: 50px 0 30px;
+    font-family: 'Roboto', sans-serif;
+    
+   
+    font-weight: 300;
+    letter-spacing: 0;
+}
+
+
+
+.title-image {
+    width: calc( 100% - 615px );
+    text-align: center;
+}
+
+.discription a {
+    font-family: 'Roboto Bk';
+    color: #e10011;
+}
+
+.discription a:hover {
+    text-decoration: underline;
+}
+
+.figure {
+    padding: 90px 100px;
+    text-align: center;
+}
+
+.figure a {
+    padding: 0 5px;
+}
+
+.circle:hover {
+    background: #e10011;
+}
+
+.active {
+    background: #e10011;
+    display: inline-block;
+    width: 11px; height: 11px;
+    border-radius: 50%;
+}
+
+.circle {
+    display: inline-block;
+    width: 11px; height: 11px;
+    background: #303030;
+    border-radius: 50%;
+}
+
+
+/*end of slider*/
