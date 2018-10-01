@@ -21,7 +21,9 @@
 }
 
 body {
+    font-family: 'Raleway', sans-serif;
     background-color: #eeeeee;
+    color: #303030;
 }
 
 a {
@@ -177,3 +179,26 @@ a {
 
 
 /*end of slider*/
+
+/*Main*/
+h1 {
+    margin: 0;
+    font-size: 48px;
+   
+}
+
+.gallery {
+    background-color: #fff;
+}
+
+.main-title {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 550px;
+}
+
+.main-title p {
+    font-size: 18px;
+}
+
+/*Endf of main*/
