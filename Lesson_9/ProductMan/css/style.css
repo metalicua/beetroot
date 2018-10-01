@@ -28,8 +28,8 @@ a {
     text-decoration: none;
 }
 
-.icon {
-    font-family: 'FontAwesome' !important;
+#icon {
+    font-family: 'FontAwesome';
 }
 
 .grid {
