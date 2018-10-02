@@ -148,6 +148,9 @@ body {
 
 .hero-btn:hover {
     background-color: #48bf72;
+}
+
+.hero-btn a:hover {
     color: #fff;
 }
 /* End Hero */
@@ -158,6 +161,7 @@ body {
 }
 
 .portfolio-filter {
+    margin-bottom: 50px;
     text-align: center;
 }
 
@@ -203,10 +207,63 @@ body {
 
 .portfolio-box-column {
     display: inline-block;
-    vertical-align: tip;
+    vertical-align: top;
 }
 
 .portfolio-item {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
 
+.portfolio-item:nth(last-child) {
+    margin-bottom: 0;
+}
+
+.portfolio-item-text {
+    position: absolute;
+    display: none;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: #fff;
+    background-color: rgba(72, 191, 114, 0.9);
+}
+
+.portfolio-item:hover .portfolio-item-text{
+    display: block;
+
+
+}
+
+.portfolio-item img {
+    display: block;
+}
+
+.portfolio-item-text {
+    
+}
+
+.portfolio-item-discriplion {
+
+}
+
+.portfolio-item-title {
+    display: block;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.portfolio-item-box {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: -26px;
 }
 /* End Portfolio *

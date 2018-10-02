@@ -100,12 +100,12 @@ a {
 /*Slider*/
 
 .slider {
-    padding-top: 120px;
+    padding-top: 50px;
 }
 
 .discription {
     text-align: right;
-    max-width: 615px;
+    max-width: 51%;
     font-size: 24px;
     line-height: 1.5;
 }
@@ -127,13 +127,14 @@ h1 {
 }
 
 .text {
-    padding: 50px 0 30px;
+    padding: 30px 0 30px;
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     letter-spacing: 0;
 }
 .title-image {
-    width: calc( 100% - 615px );
+	padding-left: 50px;
+    max-width: 49%;
     text-align: center;
 }
 
