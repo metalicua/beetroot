@@ -30,9 +30,6 @@ a {
     text-decoration: none;
 }
 
-#icon {
-    font-family: 'FontAwesome';
-}
 
 .grid {
     margin: 0 auto;
@@ -51,6 +48,10 @@ a {
 .header-nav {
     display: inline-block;
     vertical-align: middle;
+}
+
+.header-nav a.icon {
+    font-family: 'FontAwesome';
 }
 
 .header-logo {
@@ -115,7 +116,7 @@ a {
     vertical-align: middle;
 }
 
-.text-title {
+h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 150px;
     color: #303030;
@@ -128,14 +129,9 @@ a {
 .text {
     padding: 50px 0 30px;
     font-family: 'Roboto', sans-serif;
-    
-   
     font-weight: 300;
     letter-spacing: 0;
 }
-
-
-
 .title-image {
     width: calc( 100% - 615px );
     text-align: center;
@@ -181,7 +177,7 @@ a {
 /*end of slider*/
 
 /*Main*/
-h1 {
+h2 {
     margin: 0;
     font-size: 48px;
    
