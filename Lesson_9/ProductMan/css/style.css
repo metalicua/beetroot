@@ -151,12 +151,14 @@ h1 {
     text-align: center;
 }
 
-.figure a {
+.figure li {
+    margin-left: 5px;
     padding: 0 5px;
 }
 
 .circle:hover {
     background: #e10011;
+    cursor: pointer;
 }
 
 .active {
@@ -164,6 +166,7 @@ h1 {
     display: inline-block;
     width: 11px; height: 11px;
     border-radius: 50%;
+    cursor: pointer;
 }
 
 .circle {
