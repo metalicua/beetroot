@@ -9,15 +9,16 @@ body {
 }
 
 .grid {
+	position: relative;
 	width: 1200px;
-	margin: 0 auto;
+	margin: auto;
 	background-color: #d48e5d;
 }
 
 .border {
 	position: relative;
 	font-size: 0;
-	margin: 0 auto;
+	margin: 50px auto;
 	width: 800px;
 	height: 800px;
 	background-color: #d48e5d;
@@ -47,6 +48,7 @@ body {
 	position:absolute;
 	border: 50px solid #000;
 	border-radius: 50%;
+	
  }
 
 .cell:nth-child(n+41):nth-child(-n+48):nth-child(even):after,
@@ -56,6 +58,7 @@ body {
 	position:absolute;
 	border: 50px solid #ebded0;
 	border-radius: 50%;
+	
 }
 
 .cell:nth-child(-n+8):nth-child(odd):hover:after,
@@ -65,13 +68,5 @@ body {
 .cell:nth-child(n+49):nth-child(-n+56):nth-child(odd):hover:after,
 .cell:nth-child(n+57):nth-child(-n+64):nth-child(even):hover:after {
 	box-shadow: 0px 4px 10px 0px #333;
-}
-
-.cell:nth-child(-n+8):nth-child(odd):after,
-.cell:nth-child(n+9):nth-child(-n+16):nth-child(even):after,
-.cell:nth-child(n+17):nth-child(-n+24):nth-child(odd):after,
-.cell:nth-child(n+41):nth-child(-n+48):nth-child(even):after,
-.cell:nth-child(n+49):nth-child(-n+56):nth-child(odd):after,
-.cell:nth-child(n+57):nth-child(-n+64):nth-child(even):after {
 	cursor: pointer;
-	}
+}
