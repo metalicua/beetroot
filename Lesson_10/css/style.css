@@ -1,37 +1,77 @@
-* {
+*{
 	margin: 0;
 	padding: 0;
-	
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #666363;
 }
 
 .grid {
-	margin: 0 auto;
 	width: 1200px;
+	margin: 0 auto;
+	background-color: #d48e5d;
 }
 
-.board {
-	margin: auto;
-	width: 1100px;
-	height: 1100px;
-	background-color: #e0cfb5;
-}
-
-.play-zone {
+.border {
 	position: relative;
-	top: 150px;
-	margin: auto;
+	font-size: 0;
+	margin: 0 auto;
 	width: 800px;
 	height: 800px;
-	border: 5px solid #161213;
+	background-color: #d48e5d;
+	border: 5px solid #000;
 }
-
-.square {
+.cell {
 	display: inline-block;
-	width: 100px;
-	height: 100px;
-	background-color: #161213;
+	width: calc(100%/8);
+	height: calc(100%/8);
 }
 
-.square:nth-child(2n){
-	background-color: #e2caae;
+.cell:nth-child(-n+8):nth-child(even),
+.cell:nth-child(n+9):nth-child(-n+16):nth-child(odd),
+.cell:nth-child(n+17):nth-child(-n+24):nth-child(even),
+.cell:nth-child(n+25):nth-child(-n+32):nth-child(odd),
+.cell:nth-child(n+33):nth-child(-n+40):nth-child(even),
+.cell:nth-child(n+41):nth-child(-n+48):nth-child(odd),
+.cell:nth-child(n+49):nth-child(-n+56):nth-child(even),
+.cell:nth-child(n+57):nth-child(-n+64):nth-child(odd) {
+	background-color: #FFCE9E;
+	}
+
+.cell:nth-child(-n+8):nth-child(odd):after,
+.cell:nth-child(n+9):nth-child(-n+16):nth-child(even):after,
+.cell:nth-child(n+17):nth-child(-n+24):nth-child(odd):after {
+	content: "";
+	position:absolute;
+	border: 50px solid #000;
+	border-radius: 50%;
+ }
+
+.cell:nth-child(n+41):nth-child(-n+48):nth-child(even):after,
+.cell:nth-child(n+49):nth-child(-n+56):nth-child(odd):after,
+.cell:nth-child(n+57):nth-child(-n+64):nth-child(even):after {
+	content: "";
+	position:absolute;
+	border: 50px solid #ebded0;
+	border-radius: 50%;
 }
+
+.cell:nth-child(-n+8):nth-child(odd):hover:after,
+.cell:nth-child(n+9):nth-child(-n+16):nth-child(even):hover:after,
+.cell:nth-child(n+17):nth-child(-n+24):nth-child(odd):hover:after,
+.cell:nth-child(n+41):nth-child(-n+48):nth-child(even):hover:after,
+.cell:nth-child(n+49):nth-child(-n+56):nth-child(odd):hover:after,
+.cell:nth-child(n+57):nth-child(-n+64):nth-child(even):hover:after {
+	box-shadow: 0px 4px 10px 0px #333;
+}
+
+.cell:nth-child(-n+8):nth-child(odd):after,
+.cell:nth-child(n+9):nth-child(-n+16):nth-child(even):after,
+.cell:nth-child(n+17):nth-child(-n+24):nth-child(odd):after,
+.cell:nth-child(n+41):nth-child(-n+48):nth-child(even):after,
+.cell:nth-child(n+49):nth-child(-n+56):nth-child(odd):after,
+.cell:nth-child(n+57):nth-child(-n+64):nth-child(even):after {
+	cursor: pointer;
+	}
