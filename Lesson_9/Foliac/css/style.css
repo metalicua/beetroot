@@ -35,15 +35,36 @@
     box-sizing: border-box;
 }
 
-h1,
-h2,
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+.clearfix:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+h1,h2,
 h3,
 p {
     margin-top: 0;
 }
 
+h3 {
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 700;
+}
+
 body {
     font-family: 'Lato', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    line-height: 25px;
 }
 
 .grid {
@@ -136,12 +157,6 @@ body {
 }
 
 .hero-btn {
-    display: inline-block;
-    padding: 15px 20px;
-    font-weight: 700;
-    text-decoration: none;
-    text-transform: uppercase;
-    border-radius: 3px;
     color: #48bf72;
     border: 2px solid #48bf72;
 }
@@ -267,3 +282,50 @@ body {
     margin-top: -26px;
 }
 /* End Portfolio *
+
+/*About*/
+.about {
+    padding: 80px 0;
+    background: url('../img/men-computer.jpg') no-repeat center;
+    background-size: cover;
+    
+}
+
+.about-box {
+    width: 50%;
+    float: right;
+    color: #fff;
+}
+
+.about-header {
+    margin-bottom: 40px;
+
+}
+
+.about-subtitle {
+    font-size: 22px;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 25px;
+    text-transform: uppercase;
+    border: 2px solid #3c4955;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background: #3c4955;
+    color: #fff;
+}
+
+.btn-green{
+
+ color: #48bf72;
+    border: 2px solid #48bf72;
+}
+/*End of about*/
