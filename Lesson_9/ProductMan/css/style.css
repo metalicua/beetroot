@@ -329,14 +329,13 @@ cursor: pointer;
 .ts-btn {
 display: inline-block;
 width: 25%;
-padding: 20px;
+padding: 19px;
 border: 1px solid #E10011;
 outline: none;
 vertical-align: top;
 background-color: #E10011;
 border-top-right-radius: 50px;
 border-bottom-right-radius: 50px;
-font-size: 40px;
 font-family: "Roboto", sans-serif;
 font-weight: 900;
 color: #ffffff;
@@ -364,14 +363,13 @@ font-size: 18px;
 }
 
 .footer-soc-box {
+    position: relative;
      margin: auto;
 }
 
 .footer-soc-box a {
-
     display: block;
     display: inline-block;
-    padding-top: 16px;
     margin: 10px;
     width: 70px;
     height: 70px;
@@ -382,6 +380,31 @@ font-size: 18px;
     color: #979797;
 }
 
+.footer-fb,
+.footer-tw,
+.footer-yb,
+.footer-me {
+    position: absolute;
+    top: 25px;
+    width: 100%;
+}
+
+.footer-fb {
+    left: -142px;
+}
+
+.footer-tw {
+    left: -45px;
+}
+
+.footer-yb {
+    left: 47px;
+}
+
+.footer-me {
+   left: 142px;
+}
+
 .copyright {
     margin: 20px 0;
 }
@@ -390,3 +413,5 @@ font-size: 18px;
     text-decoration: none;
     color: #303030;
 }
+
+
