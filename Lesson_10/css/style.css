@@ -9,14 +9,16 @@ body {
 }
 
 .grid {
-	position: relative;
 	width: 1200px;
 	margin: auto;
 	background-color: #d48e5d;
 }
 
-.border {
+.play-zone {
 	position: relative;
+}
+
+.border {
 	font-size: 0;
 	margin: 50px auto;
 	width: 800px;
@@ -24,6 +26,17 @@ body {
 	background-color: #d48e5d;
 	border: 5px solid #000;
 }
+
+.box-left {
+	float: left;
+	width: 170px;
+}
+
+.box-right {
+	float: right;
+	width: 170px;
+}
+
 .cell {
 	width: 12.5%;
 	height: 12.5%;
@@ -41,32 +54,167 @@ body {
 	background-color: #FFCE9E;
 	}
 
-.cell:nth-child(-n+8):nth-child(odd):after,
-.cell:nth-child(n+9):nth-child(-n+16):nth-child(even):after,
-.cell:nth-child(n+17):nth-child(-n+24):nth-child(odd):after {
-	content: "";
-	position:absolute;
-	border: 50px solid #000;
+.dark {
+	width: 80px;
+	height: 80px;
+	background-color: #000;
 	border-radius: 50%;
-	
- }
-
-.cell:nth-child(n+41):nth-child(-n+48):nth-child(even):after,
-.cell:nth-child(n+49):nth-child(-n+56):nth-child(odd):after,
-.cell:nth-child(n+57):nth-child(-n+64):nth-child(even):after {
-	content: "";
-	position:absolute;
-	border: 50px solid #ebded0;
-	border-radius: 50%;
-	
 }
 
-.cell:nth-child(-n+8):nth-child(odd):hover:after,
-.cell:nth-child(n+9):nth-child(-n+16):nth-child(even):hover:after,
-.cell:nth-child(n+17):nth-child(-n+24):nth-child(odd):hover:after,
-.cell:nth-child(n+41):nth-child(-n+48):nth-child(even):hover:after,
-.cell:nth-child(n+49):nth-child(-n+56):nth-child(odd):hover:after,
-.cell:nth-child(n+57):nth-child(-n+64):nth-child(even):hover:after {
+.red {
+	width: 80px;
+	height: 80px;
+	background-color: #fd0505;
+	border-radius: 50%;
+}
+
+.checker-1 {
+	position: absolute;
+	top: 12px;
+	left: 212px;
+}
+
+.checker-2 {
+	position: absolute;
+	top: 12px;
+	left: 412px;
+}
+
+.checker-3 {
+	position: absolute;
+	top: 12px;
+	left: 610px;
+}
+
+.checker-4 {
+	position: absolute;
+	top: 12px;
+	left: 808px;
+}
+
+.checker-5 {
+	position: absolute;
+	top: 112px;
+	left: 312px;
+}
+
+.checker-6 {
+	position: absolute;
+	top: 112px;
+	left: 510px;
+}
+
+.checker-7 {
+	position: absolute;
+	top: 112px;
+	left: 708px;
+}
+
+.checker-8 {
+	position: absolute;
+	top: 112px;
+	left: 908px;
+}
+
+.checker-9 {
+	position: absolute;
+	top: 212px;
+	left: 212px;
+}
+
+.checker-10 {
+	position: absolute;
+	top: 212px;
+	left: 412px;
+}
+
+.checker-11 {
+	position: absolute;
+	top: 212px;
+	left: 610px;
+}
+
+.checker-12 {
+	position: absolute;
+	top: 212px;
+	left: 808px;
+}
+
+.checker-13 {
+	position: absolute;
+	top: 510px;
+	left: 312px;
+}
+
+.checker-14 {
+	position: absolute;
+	top: 510px;
+	left: 512px;
+}
+
+.checker-15 {
+	position: absolute;
+	top: 510px;
+	left: 710px;
+}
+
+.checker-16 {
+	position: absolute;
+	top: 510px;
+	left: 910px;
+}
+
+.checker-17 {
+	position: absolute;
+	top: 610px;
+	left: 212px;
+}
+
+.checker-18 {
+	position: absolute;
+	top: 610px;
+	left: 412px;
+}
+
+.checker-19 {
+	position: absolute;
+	top: 610px;
+	left: 610px;
+}
+
+.checker-20 {
+	position: absolute;
+	top: 610px;
+	left: 808px;
+}
+
+.checker-21 {
+	position: absolute;
+	top: 710px;
+	left: 312px;
+}
+
+.checker-22 {
+	position: absolute;
+	top: 710px;
+	left: 512px;
+}
+
+.checker-23 {
+	position: absolute;
+	top: 710px;
+	left: 710px;
+}
+
+.checker-24 {
+	position: absolute;
+	top: 710px;
+	left: 910px;
+}
+
+
+.red:hover,
+.dark:hover {
 	box-shadow: 0px 4px 10px 0px #333;
 	cursor: pointer;
 }
