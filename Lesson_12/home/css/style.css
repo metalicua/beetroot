@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'Museo Sans Rounded';
+    src: url('../fonts/MuseoSansRounded-100.woff2') format('woff2'),
+        url('../fonts/MuseoSansRounded-100.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Museo Sans Rounded';
+	background: url('../img/bg.jpg') no-repeat;
+	background-size: 100%;
+}
+
+h1 {
+	font-size: 24px;
+	color: #ccc;
+}
+
+.grid {
+	width: 50%;
+	margin: 0 auto;
+}	
+
+.card {
+	margin-top: 150px;
+	background: #111a28;
+	border-radius: 10px;
+	box-shadow: 30px  0  30px rgba(0,0,0,0.5);
+}
+
+.heared-logo {
+	margin: 40px;
+}
+
+.clearfix:after {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.item-box-img {
+	margin: 20px 20px 20px 60px;
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+
+.item-box-img img {
+	width: 100%;
+	height: 100%;
+}
+
+.item-box-text {
+	float: right;
+	margin: 20px;
+	width: 25%;
+}
+
+.item-box-text-dscrip {
+	font-size: 14px;
+	color: #e1e1e1;
+}
