@@ -380,29 +380,34 @@ font-size: 18px;
     color: #979797;
 }
 
+.footer-soc-box a:hover {
+    background-color: red;
+}
+
 .footer-fb,
 .footer-tw,
 .footer-yb,
 .footer-me {
     position: absolute;
+    display: block;
     top: 25px;
-    width: 100%;
+    width: 3%;
 }
 
 .footer-fb {
-    left: -142px;
+    left: 440px;
 }
 
 .footer-tw {
-    left: -45px;
+    left: 535px;
 }
 
 .footer-yb {
-    left: 47px;
+    left: 630px;
 }
 
 .footer-me {
-   left: 142px;
+   left: 723px;
 }
 
 .copyright {
