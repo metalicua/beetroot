@@ -1,0 +1,304 @@
+*{
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	background: url('../img/page-bg.jpg')no-repeat;
+	background-size: cover;
+}
+
+.grid {
+	width: 750px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: '';
+	display:block;
+	clear: both;
+}
+
+/*rating*/
+.rating {
+
+}
+
+.rating-title {
+
+}
+
+.rating-title {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	color: #000;
+
+}
+
+.rating__list {
+	display: inline-block;
+	padding: 0;
+	
+}
+
+.rating__list li {
+	display: inline-block;
+	margin: 0 2px;
+	font-size: 0;
+}
+
+.rating__list li:first-child,
+
+.rating__btn {
+	padding: 0;
+	width: 9px;
+	height: 9px;
+	cursor: pointer;
+	border:none;
+	background-image: url('../img/star-grey.png');
+	background-color: transparent;
+}
+
+.rating__btn--active {
+	background-image: url('../img/star.png');
+}
+
+/*end of rating*/
+
+/*Size*/
+.size {
+
+}
+
+.size_title {
+	font-size: 12px;
+	color: #000;
+}
+
+
+.size__list{
+	padding: 0;
+}
+
+.size__list li {
+	display: inline-block;
+	margin: 0 5px;
+}
+
+.size__list li:first_child {
+	margin-left: 0;
+}
+
+.size__list li:last_child {
+	margin-right: 0;
+}
+
+.size_btn {
+	padding: 0;
+	width: 24px;
+	height: 24px;
+	border: 1px solid transparent;
+	cursor: pointer;
+	background: transparent;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	color: #000;
+}
+
+.size_btn--active {
+	border: 1px solid #0f0f0f;
+
+}
+
+.deteils__size {
+	margin-bottom: 25px;
+}
+/*end of size*/
+
+/*buttons*/
+
+.btn {
+	margin-bottom: 4px;
+	display: inline-block;
+	width: 120px;
+	height: 30px;
+	text-decoration: none;
+	text-transform: uppercase;
+	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 12px;
+	line-height: 28px;
+	color: #000;
+	border: 1px solid #000;
+	cursor: pointer;
+	background-color: transparent;
+}
+
+.btn:hover {
+	background: #000;
+	color: #fff;
+}
+
+.btn--purple {
+	background-color: #a200b8;
+	color: #fff;
+	border: 1px solid  #a200b8;
+}
+
+.btn--purple:hover {
+	background: #a200b8;
+	color: #fff;
+}
+
+/*end of buttons*/
+
+/*Header*/
+.header {
+	padding: 30px 0;
+	font-size: 0;
+}
+
+.header__logo,
+.header__nav,
+.header-btn {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header__logo,
+.header__btn  {
+	width: 15%
+}
+
+.header__nav {
+	width: 70%;
+	text-align: center;
+	position: relative;
+	top: 5px;
+}
+
+.header__btn {
+	
+}
+
+/*End of header*/
+
+
+.nav__item {
+	display: inline-block;
+	margin: 0 25px;
+}
+
+.nav__link {
+	display: inline-block;
+	text-transform: uppercase;
+	padding-bottom: 5px;
+	border-bottom: 1px solid transparent;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.nav__link--active {
+	border-bottom: 1px solid #fff;
+}
+
+.nav-btn {
+	position: relative;
+	width: 22px;
+	height: 14px;
+	padding: 0;
+	background: transparent;
+	border: none;
+}
+
+.nav-btn:before,
+.nav-btn:after {
+	content: '';
+}
+
+.nav-btn:before,
+.nav-btn:after,
+.nav-btn span {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 2px;
+	background-color: #fff;
+}
+
+.nav-btn span {
+	top:6px;
+}
+
+.nav-btn:before {
+	top: 0px;
+}
+
+.nav-btn:after {
+	bottom: 0;
+}
+
+/*Product-card*/
+
+.product-card {
+	display: table;
+	width: 100%;
+	background-color: #fff;
+}
+
+.product-card__gallery {
+	display: table-cell;
+	background-color: #f4f4f4;
+}
+
+.product-card__deteils {
+	display: table-cell;
+	width: 250px;
+	padding: 45px 30px;
+
+}
+
+.deteils-lable {
+	margin-bottom: 10px;
+	padding: 7px;
+	display: inline-block;
+	background-color: #ffa60d;
+	text-transform: uppercase;
+	font-size: 14px;
+	color: #fff;
+}
+
+.deteils-title {
+	margin-bottom: 15px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #000;
+
+}
+
+.deteils-title b {
+	color: #5e4fff;
+}
+
+.deteils-title span {
+	display: block;
+}
+
+.details__rating {
+	margin-bottom: 15px;
+}
+
+.details__price {
+	margin-bottom: 25px;
+	font-weight: 300;
+	font-size: 22px;
+	color: #000;
+}
+/*End of Product-card*/
+
