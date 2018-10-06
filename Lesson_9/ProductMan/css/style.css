@@ -381,7 +381,7 @@ font-size: 18px;
 }
 
 .footer-soc-box a:hover {
-    background-color: red;
+    background-color: #E10011;
 }
 
 .footer-fb,
@@ -417,6 +417,10 @@ font-size: 18px;
 .copyright a {
     text-decoration: none;
     color: #303030;
+}
+
+.copyright a:hover {
+    color: #E10011;
 }
 
 
