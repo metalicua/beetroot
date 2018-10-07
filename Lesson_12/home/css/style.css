@@ -6,7 +6,7 @@
     font-style: normal;
 }
 
-*{
+* {
 	margin: 0;
 	padding: 0;
 }
@@ -48,24 +48,13 @@ h1 {
 	display: table;
 }
 
+/*Gallery*/
+
 .producut__gallery {
 	display: table-cell;
 	padding: 20px;
 }
 
-.product__details {
-	padding: 0 40px;
-	display: table-cell;
-	width: 250px;
-	vertical-align: top;
-	font-size: 24px;
-	line-height: 1;
-	color: #e1e1e1;
-}
-
-.product__details span {
-	display: block;
-}
 
 .gallery__slider {
 	margin-top: 70px;
@@ -112,11 +101,31 @@ h1 {
 	
 }
 
+/*End of gallery*/
+
+/*Product detail*/
+
+.product__details {
+	padding: 0 40px;
+	display: table-cell;
+	width: 250px;
+	vertical-align: top;
+	font-size: 24px;
+	line-height: 1;
+	color: #e1e1e1;
+}
+
+.product__details span {
+	display: block;
+}
+
 .product__discription {
 	font-size: 14px;
 	line-height: 2;
 	margin: 10px 0;
 }
+
+/*rating list*/
 
 .rating__list {
 	font-size: 0;
@@ -155,6 +164,9 @@ margin-left: 0;
 	background-image: url('../img/star_gold.png');
 }
 
+/*End of rating list*/
+
+/*Button size & qty*/
 
 .details__size {
 	margin-top: 20px;
@@ -211,6 +223,10 @@ margin-left: 0;
 
 }
 
+/*End of button size & qty*/
+
+/*cart button*/
+
 .details__btn {
 	margin-top: 25px;
 }
@@ -223,5 +239,9 @@ margin-left: 0;
 	border: 1px solid #e1e1e1;
 	background-color: #202835;
 }
+
+/*End of cart button*/
+
+/*End of product detail*/
 
 /*End of main*/
